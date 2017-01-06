@@ -112,10 +112,10 @@ export class Md2Datepicker implements AfterContentInit, ControlValueAccessor {
   _isCalendarVisible: boolean;
   _isHoursVisible: boolean = true;
 
-  private months: Array<string> = ['January', 'February', 'March', 'April',
-    'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-  _days: Array<string> = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday',
-    'Friday', 'Saturday'];
+  private months: Array<string> = ['1月', '2月', '3月', '4月',
+    '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
+  _days: Array<string> = ['日', '月', '火', '水', '木',
+    '金', '土'];
   _hours: Array<Object> = [];
   _minutes: Array<Object> = [];
 
